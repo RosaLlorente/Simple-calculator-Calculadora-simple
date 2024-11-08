@@ -1,0 +1,142 @@
+body
+{
+    background-color: rgb(239, 207, 153);
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 1.5em;
+    font-family: serif;
+    font-style: oblique;
+    background-color: rgb(220, 20, 60,0.2);
+    padding: 0.3em;
+    border-radius: 10px;
+    color: darkmagenta;
+}
+.Calculator {
+    background-color: rgb(204, 81, 130);
+    height: 35em;
+    width: 20em;
+    border: 0.3em groove black;
+    box-shadow: inset rgba(255, 255, 255, 0.5) 4px 4px 1px,inset rgba(255, 255, 255, 0.5) -5px -4px 1px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Output
+{
+    width: 90%;
+    height: 3rem;
+    border: 0.1em solid black;
+    box-shadow: inset rgb(128, 128, 128,0.5) 4px 4px 1px;
+    border-radius: 20%;
+    background-color: rgb(209, 217, 220);
+    margin-top: 1em;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;
+}
+
+p 
+{
+    font-size: 1.3em;
+    overflow: hidden;
+}
+.Buttons
+{
+    width: inherit;
+    height: inherit;
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 1rem;
+    justify-content: center;
+}
+#Numbers {
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+#Numbers > div {
+    width: 20%; 
+    height: 4rem;
+    border: 4px inset rgb(0, 0, 0,0.5);
+    border-radius: 100%;
+    box-shadow: 5px -5px 1px rgb(154, 154, 154,0.4);
+    background-color: rgb(226, 192, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Buttons-Operators {
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+#Buttons-Operators > div {
+    width: 20%; 
+    height: 4rem;
+    border: 4px inset rgb(0, 0, 0,0.5);
+    border-radius: 100%;
+    box-shadow: 5px -5px 1px rgb(154, 154, 154,0.4);
+    background-color: rgb(226, 192, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Functional-Buttons {
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.1rem;
+    justify-content: center;
+}
+#Functional-Buttons > div {
+    width: 20%; 
+    height: 4rem;
+    border: 4px inset rgb(0, 0, 0,0.5);
+    border-radius: 100%;
+    box-shadow: 5px -5px 1px rgb(154, 154, 154,0.4);
+    background-color: rgb(226, 192, 250);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#C
+{
+    background-color: rgb(180, 55, 205);
+}
+div#C:hover
+{
+    background-color: rgb(225, 126, 220);
+    border: 4px inset rgba(0, 234, 255, 0.5);
+}
+div
+{
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#Numbers > div:hover,#Buttons-Operators > div:hover,#equals:hover
+{
+    background-color: rgb(225, 150, 191);
+    box-shadow: 0 0 10px rgba(255, 0, 174, 0.8), 0 0 20px rgba(255, 0, 0, 0.8);
+    transition: box-shadow 0.7s ease, background-color 0.3s ease;
+}
