@@ -2,6 +2,8 @@
 
 ![image](https://github.com/user-attachments/assets/722b95d7-2beb-4e95-9330-27dbc82b0170)
 
+Ver proyecto: https://rosallorente.github.io/Simple-calculator-Calculadora-simple/
+
 <p>The following technologies have been used in this project/En este proyecto se han utilizado las siguientes tecnologías:</p>
 
 <div align="left">
